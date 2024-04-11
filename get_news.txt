@@ -1,0 +1,11 @@
+
+                Title:  [Removed],
+                Author: None,
+                Source: [Removed],
+                Description: [Removed],
+                URL: https://removed.com,
+                Title:  Updates to Google Maps and Search make it easier to plan your next outing,
+                Author: Jess Weatherbed,
+                Source: The Verge,
+                Description: Google is introducing new translation features and AI-powered trip itineraries in Search and lists of curated recommendations in Maps.,
+                URL: https://www.theverge.com/2024/3/27/24113348/google-maps-search-update-itineraries-lists-translation,

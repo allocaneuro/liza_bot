@@ -1,0 +1,18 @@
+version: '3.7'
+
+services:
+  telegram_bot:
+    build: ./liza_bot
+    image: liza_bot
+    environment:
+      - API_YANDEX_KEY=<AQVNytnYkjp8nRzRku5ToFCHQkbkeNUVgylVSeTt>
+      - GPT_SECRET_KEY_ALLOCA=<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>
+      - API_KEY_ELEVENLABS=<c77a14aaa3dc8c6456091cd3e9b4401d>
+      - TG_TOKEN_LIZA=<7144976789:AAFftryxlCo6QeZn6X9OFyLewhlU3gs-f_g>
+      - AUDIO_PATH=/app/voice.wav
+      - AUDIO_FILE_PATH=/app/voice_response.mp3
+    ports:
+      - "8080:8080"
+    volumes:
+      - ./liza_bot:/app
+      - C:\Users\Evgenii\Desktop\liza_bot:/app/voice_response.mp3 
