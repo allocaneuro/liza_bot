@@ -28,8 +28,6 @@ configure_credentials(
 # sintez_yandex_SK(text)
 # play_audio(datas) 
 
-#docker run -e GPT_SECRET_KEY=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 telegram_bot_image
-#docker run -v C:/Users/Evgenii/Desktop/tg_bot_aio/voice.wav:. /telegram_bot -e GPT_SECRET_KEY=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 -e TG_TOKEN=6512936119:AAF2Nmn44krquiQX3KObbft6J2Bch4AZPR8 -e API_KEY_ELEVENLABS=c77a14aaa3dc8c6456091cd3e9b4401d -e API_YANDEX_KEY=AQVNytnYkjp8nRzRku5ToFCHQkbkeNUVgylVSeTt telegram_bot_image
 
 
 import asyncio
